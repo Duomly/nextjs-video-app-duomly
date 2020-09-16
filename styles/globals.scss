@@ -1,3 +1,4 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 html,
 body {
   padding: 0;
@@ -13,4 +14,12 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.menu-padding {
+  padding-top: 70px !important;
 }
